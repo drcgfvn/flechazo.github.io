@@ -1,0 +1,8 @@
+FLECHAZO — BẢN SỬA NGÔN NGỮ 19/10/2026
+
+Đã dịch câu trang trí, nhãn giao diện, tên hiển thị 23 sản phẩm sang Việt/Hàn. Tên tiếng Anh gốc vẫn dùng để tìm kiếm. Chữ trên ảnh bao bì được giữ nguyên.
+
+Cloudflare Pages: vào đúng dự án hiện tại, Create a new deployment > Production, tải toàn bộ ZIP này lên. Giữ nguyên tên miền.
+GitHub: giải nén và đưa các file vào gốc repository.
+
+Bản này giữ cấu trúc một index.html và các trang qua đường dẫn #/ của ZIP bạn gửi. Thanh toán thực tế chưa được kết nối.
