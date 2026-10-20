@@ -85,3 +85,20 @@ footer::after{content:none!important;display:none!important}
 @media(max-width:600px){.contact-page{grid-template-columns:minmax(0,1fr);gap:32px}.contact-page .brand-contact a,.contact-page .brand-contact p{font-size:16px}.contact-page h2{font-size:25px}.footer-grid .brand-contact{gap:13px}.footer-grid .brand-contact a,.footer-grid .brand-contact p{font-size:13px}}
 /* Match contact details to the footer's existing text palette. */
 .footer-grid .brand-contact,.footer-grid .brand-contact>div>span,.footer-grid .brand-contact a,.footer-grid .brand-contact p{color:#41694d;font-weight:400}
+
+/* Unified footer typography, including the contact block on every language. */
+.footer-grid{font-family:inherit;font-size:14px;font-weight:400;line-height:1.7}
+.footer-grid p,.footer-grid a,.footer-grid .brand-contact,.footer-grid .brand-contact>div>span,.footer-grid .brand-contact a,.footer-grid .brand-contact p{font-family:inherit;font-size:14px;font-weight:400;line-height:1.7;letter-spacing:normal;color:#41694d}
+.footer-grid h4{font-family:inherit;font-size:13px;font-weight:600;line-height:1.7}
+.footer-grid .brand-contact{margin-top:20px;gap:12px}
+.footer-grid .brand-contact>div>span{margin:0 0 2px}
+.footer-grid .brand-contact a,.footer-grid .brand-contact p{margin:0;max-width:100%}
+.footer-grid .brand-contact a:hover{transform:none}
+@media(max-width:600px){.footer-grid,.footer-grid p,.footer-grid a,.footer-grid .brand-contact,.footer-grid .brand-contact>div>span,.footer-grid .brand-contact a,.footer-grid .brand-contact p{line-height:1.6}}
+
+/* Keep button labels and icons together across desktop and mobile. */
+.btn,.btn.full,.purchase-buttons .btn,.k-hero .hero-content .btn{gap:8px}
+.btn>span:has(>.arrow-icon),.add-full>span:has(>.arrow-icon){display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;line-height:1}
+.text-link,.section-head .text-link,.cart-layout>.text-link,.cart-layout>div>.text-link{display:inline-flex;align-items:center;justify-content:flex-start;gap:8px;width:fit-content;max-width:100%}
+.add-full{justify-content:flex-start;gap:8px}
+.btn .arrow-icon,.text-link .arrow-icon,.add-full .arrow-icon{margin:0;flex-shrink:0}
