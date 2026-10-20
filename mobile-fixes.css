@@ -1,0 +1,83 @@
+/* Layout corrections only — original campaign and palette retained. */
+.quick-add{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;padding:0!important;line-height:1;flex-shrink:0;appearance:none;vertical-align:middle}.quick-add svg{display:block;width:18px;height:18px;flex:none;pointer-events:none}
+@media(max-width:760px){
+ main,.section,.hero-content,.detail-copy,.picker-copy,.order-summary{min-width:0}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.product,.k-cat,.footer-grid>div{min-width:0}.product-art img,.picker-photo img{object-fit:contain}.product-detail,.cart-layout,.checkout-layout{grid-template-columns:minmax(0,1fr)}.k-stage.hero-stage{min-width:0}.product-art.large{height:auto;aspect-ratio:1;max-height:420px;width:100%;max-width:420px;justify-self:center}.k-bento>a{min-width:0}.k-story-art{overflow:hidden}.summary-product>div{min-width:0;overflow-wrap:anywhere}
+}
+@media(max-width:600px){
+ header,header.scrolled{padding-inline:14px;gap:8px}.brand,header.scrolled .brand{flex-shrink:0}.tools{gap:0}.tools button{padding:4px;min-width:28px}.tools #bagOpen{gap:3px}.tools .language-icon{display:none}.tools select{width:40px;max-width:40px}
+ .k-hero.lux-hero{min-height:0;padding:20px 6% 84px}.k-stage.hero-stage{height:300px;width:100%;max-width:330px;margin:0 auto 25px;flex:none}.k-stage>img{height:78%;width:80%;max-width:260px;object-fit:contain}.k-stage-circle{inset:7px 9% 28px}.k-circle-stamp{right:0;top:15px;width:65px;height:65px;padding-top:10px}.k-circle-stamp b{font-size:15px;margin-top:4px}.k-star{left:0;font-size:34px}.k-star.second{right:0;font-size:23px}.k-frame-text{left:10%;right:10%;text-align:center;top:10px;font-size:8px;line-height:1.5;letter-spacing:.3px}.k-product-note{left:0;right:0;bottom:0;padding:10px 12px;gap:10px}.k-product-note>span{min-width:0}.k-product-note #slideName{max-width:none;overflow-wrap:anywhere;font-size:11px;line-height:1.45}.k-product-note>b{flex:0 0 28px;width:28px;height:28px}.k-hero .hero-content{width:100%;min-width:0;margin:0}.k-pill{max-width:100%;white-space:normal}.k-hero .hero-content h1{font-size:clamp(28px,8vw,34px);overflow-wrap:break-word}.k-hero .slider-controls{left:6%;gap:6px}.k-hero .slide-dots{gap:6px}.k-hero .slide-dots button{width:22px}.k-slide-number{display:none}
+ .k-category-list{grid-template-columns:repeat(5,minmax(0,1fr))}.k-cat>span{overflow-wrap:anywhere}.section-head{flex-wrap:wrap}.section-head>div{min-width:0}.section-head .text-link{white-space:normal}.product-art{height:auto;aspect-ratio:4/5}.product-art img{width:78%;height:80%}.product:hover .product-art img{transform:none}.product h3{min-height:0;overflow-wrap:anywhere}.product-bottom{gap:5px}.product-bottom strong{font-size:14px;white-space:nowrap}.quick-add{width:32px;height:32px;min-width:32px;min-height:32px;flex-basis:32px}.quick-add svg{width:16px;height:16px}.add-full{gap:5px}
+ /* Keep the original banner styling, but place the image below its copy. */
+ .k-bento>a{display:flex;flex-direction:column;min-height:0;padding:26px 7% 18px}.k-bento>a>div{width:100%;max-width:none;padding-right:40px}.k-bento h2,.k-bento-pink h2{max-width:none}.k-bento p{max-width:100%}.k-bento img,.k-bento-blue img{position:relative;align-self:center;right:auto;bottom:auto;width:76%;max-width:245px;height:210px;object-fit:contain;margin:4px auto 0;transform:rotate(0)}.k-bento>a:hover img{transform:none}.k-bento .k-round-arrow{position:absolute;right:0;left:auto;top:auto;bottom:0;margin:0}.k-bento-flower{font-size:190px}
+ .steps-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.step-card{height:245px;min-width:0}.step-card img{width:76%;height:61%;left:12%;top:41px}.step-num{left:12px;right:12px;line-height:1.4;letter-spacing:0}.step-card>div{padding:13px;gap:6px}.step-card h3{font-size:14px}.k-story-art{height:290px}.k-story-art>img{left:4%;width:52%;height:73%;top:7%}.k-story-art>img:nth-of-type(2){left:44%;width:51%;height:60%;top:23%}.k-story-caption{font-size:10px;left:18px;bottom:12px}
+ .article-photo{height:auto;aspect-ratio:4/3}.article-photo img{width:100%;height:100%;object-fit:cover}.article-wide{max-width:100%;height:auto}.product-art.large{height:auto;aspect-ratio:1;max-height:340px;max-width:340px}.detail-copy h1,.picker-copy h2{overflow-wrap:anywhere}.purchase-buttons{flex-wrap:wrap}.purchase-buttons .btn{flex:1 1 125px}.about-banner .ritual-decoration{min-height:270px;overflow:hidden}.about-banner .ritual-decoration img{width:76%;height:230px;left:12%;top:15px;transform:none}
+ .product-picker{width:calc(100% - 24px);max-width:420px;padding:32px 18px 22px;max-height:90dvh;overflow-y:auto}.picker-layout{grid-template-columns:minmax(0,1fr);gap:18px}.picker-photo{height:200px;margin-top:0!important}.picker-photo img{height:86%;width:80%}.picker-copy h2{font-size:21px}.picker-quantity button,.quantity button{display:inline-flex;align-items:center;justify-content:center;padding:0;line-height:1}.summary-product{gap:8px}.summary-product img{width:40px;height:56px;flex:none}.summary-product>strong{font-size:12px;white-space:nowrap}.cart-drawer{width:100%;max-width:100%;max-height:100dvh}.footer-heading img{object-fit:contain;width:95px;height:75px}.footer-heading>span{flex:1 1 160px;max-width:none}.copyright{overflow-wrap:anywhere}
+}
+@media(max-width:360px){.k-stage.hero-stage{height:270px}.k-circle-stamp{width:58px;height:58px}.k-circle-stamp b{font-size:13px}.product-bottom strong{font-size:12px}.tools button{min-width:26px}.brand,header.scrolled .brand{width:75px}.section{padding-inline:14px}}
+/* Retain the requested removal of the footer watermark. */
+footer::after{content:none!important;display:none!important}
+/* Desktop daily routine: reserve separate zones for label, product, and title. */
+@media(min-width:601px){
+ .k-everyday .step-card{display:grid;grid-template-rows:56px minmax(0,1fr) 76px;align-items:stretch}
+ .k-everyday .step-card .step-num{position:static;grid-row:1;align-self:center;display:block;transform:none;margin:0;padding:12px 18px;line-height:1.5;white-space:normal;min-width:0}
+ .k-everyday .step-card>img{position:static;grid-row:2;align-self:center;justify-self:center;width:74%;height:100%;max-height:100%;min-height:0;object-fit:contain;transform:none;margin:0}
+ .k-everyday .step-card>div{position:static;grid-row:3;align-self:stretch;min-width:0;padding:16px 18px;gap:10px}
+ .k-everyday .step-card:hover>img{transform:scale(1.025)}
+ .k-everyday .step-card h3{margin:0;line-height:1.4}
+}
+/* Desktop feature banners: contain products beside the text. */
+@media(min-width:601px){
+ .k-bento>a{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);align-items:center;column-gap:12px;min-width:0}
+ .k-bento>a>div{width:auto;min-width:0;grid-column:1;grid-row:1}
+ .k-bento>a>img,.k-bento .k-bento-blue>img{position:static;grid-column:2;grid-row:1;align-self:center;justify-self:center;width:100%;height:245px;max-width:220px;object-fit:contain;transform:none;margin:0}
+ .k-bento>a:hover>img{transform:translateY(-5px)}
+ .k-bento h2,.k-bento-pink h2{overflow-wrap:break-word;max-width:100%}
+ .k-bento .k-round-arrow{position:static;margin-top:25px}
+}
+@media(min-width:601px) and (max-width:900px){
+ .k-bento{grid-template-columns:minmax(0,1fr)}
+ .k-bento>a{min-height:290px}
+ .k-bento>a>img,.k-bento .k-bento-blue>img{height:220px;max-width:210px}
+}
+/* Slide controls: vector icons and clean pagination. */
+.k-tiny-mark{border:0;background:transparent;padding:0;display:flex;align-items:center;justify-content:center;width:42px;height:42px;flex:0 0 42px}.k-tiny-mark img{display:block;width:100%;height:100%;object-fit:contain}
+.k-hero .slider-controls{gap:12px;align-items:center}.k-hero .slider-controls>button{display:inline-flex;align-items:center;justify-content:center;flex:0 0 36px;width:36px;height:36px;padding:0;line-height:1;background:transparent}.k-hero .slider-controls>button svg{display:block;flex:none;width:19px;height:19px;pointer-events:none}.k-hero .slider-controls #pause{border:1px solid currentColor;opacity:.8}.k-hero .slide-dots{display:flex;gap:0;align-items:center}.k-hero .slide-dots button{display:flex;align-items:center;justify-content:center;width:27px;height:36px;padding:0;line-height:1}.k-hero .slide-dots button:after{content:none;display:none;animation:none}.k-hero .slide-indicator{display:block;width:6px;height:6px;border-radius:20px;background:currentColor;opacity:.4;transition:width .3s,opacity .3s}.k-hero .slide-dots button.active .slide-indicator{width:20px;opacity:1}.k-hero .slider-controls button:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+@media(max-width:600px){.k-hero .slider-controls{gap:8px}.k-hero .slider-controls>button{width:32px;height:32px;flex-basis:32px}.k-hero .slide-dots{gap:0}.k-hero .slide-dots button{width:25px;height:34px}}
+/* One vector icon style for product links and botanical decorations. */
+.arrow-icon{display:inline-block;width:18px;height:18px;flex:0 0 18px;vertical-align:middle;pointer-events:none}.k-round-arrow,.k-product-note>b,.step-card>div>span,.footer-heading>a{display:inline-flex;align-items:center;justify-content:center;padding:0;line-height:1}.k-round-arrow .arrow-icon,.footer-heading>a .arrow-icon{width:20px;height:20px}.botanical-icon{display:block;width:1em;height:1em;max-width:none;pointer-events:none}.k-marquee i{display:inline-flex;align-items:center;justify-content:center}.k-marquee i .botanical-icon{width:24px;height:24px}.k-star .botanical-icon{width:1em;height:1em}.k-star{animation:none!important}.closing-spark,.hero-flower,.k-bento-flower{line-height:1;pointer-events:none}
+/* Opaque, separate caption panels across desktop and mobile. */
+.k-everyday .step-card{display:grid;grid-template-rows:50px minmax(0,1fr) 70px;isolation:isolate}
+.k-everyday .step-card .step-num{position:static;grid-row:1;align-self:center;transform:none;margin:0;padding:12px 18px;line-height:1.4;white-space:normal}
+.k-everyday .step-card>img{position:static;grid-row:2;justify-self:center;align-self:center;width:72%;height:100%;max-height:100%;min-height:0;object-fit:contain;margin:0;transform:none}
+.k-everyday .step-card>div{position:static;grid-row:3;background:#fff!important;border-top:1px solid #dce9df;backdrop-filter:none;padding:16px 18px;gap:10px;z-index:3;align-self:stretch}
+.k-everyday .step-card h3{margin:0;color:#28513a;font-weight:500;line-height:1.4}
+.k-everyday .step-card>div>span{width:30px;height:30px;flex:0 0 30px;border:1px solid #dce9df;border-radius:50%;background:#fff}
+.k-everyday .step-card>div .arrow-icon{width:15px;height:15px}
+@media(max-width:600px){.k-everyday .step-card{grid-template-rows:44px minmax(0,1fr) 60px;height:260px}.k-everyday .step-card .step-num{font-size:9px;padding:10px 12px}.k-everyday .step-card>div{padding:12px;gap:6px}.k-everyday .step-card h3{font-size:14px}.k-everyday .step-card>img{width:74%}.k-everyday .step-card>div>span{width:25px;height:25px;flex-basis:25px}.k-everyday .step-card>div .arrow-icon{width:13px;height:13px}}
+/* Campaign tagline has its own clear band above the product. */
+.k-stage.hero-stage{padding-top:38px}
+.k-frame-text{top:0;left:0;right:0;width:auto;text-align:center;transform:none;font-size:12px;font-weight:500;line-height:1.5;letter-spacing:1px;z-index:6;padding:0 8px;overflow-wrap:break-word}
+.k-stage>img{max-height:calc(100% - 72px);translate:0 8px}
+.k-circle-stamp{top:45px;right:-10px;width:112px;height:112px;padding:19px 8px 8px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:7px;line-height:1.3}
+.k-circle-stamp b{font-size:18px;line-height:1.2;letter-spacing:-.3px;margin-top:8px;font-weight:500}
+@media(max-width:1050px){.k-frame-text{font-size:11px;letter-spacing:.5px}.k-circle-stamp{right:0;width:92px;height:92px;top:42px;padding:12px 6px}.k-circle-stamp b{font-size:15px}}
+@media(max-width:600px){.k-stage.hero-stage{height:330px;padding-top:42px}.k-frame-text{font-size:11px;line-height:1.5;letter-spacing:.3px;top:0;padding:0 4px}.k-stage-circle{top:35px}.k-stage>img{height:72%;max-height:calc(100% - 95px);translate:0 6px}.k-circle-stamp{top:48px;right:0;width:78px;height:78px;padding:10px 5px;font-size:6px}.k-circle-stamp b{font-size:13px;line-height:1.2;margin-top:5px;letter-spacing:-.2px}.k-star{top:85px}}
+@media(max-width:360px){.k-stage.hero-stage{height:300px}.k-frame-text{font-size:10px}.k-circle-stamp{width:70px;height:70px}.k-circle-stamp b{font-size:12px}}
+/* Clearer gold branding on white without changing the source logo. */
+.brand img,.footer-heading img{filter:brightness(.77) saturate(1.28) contrast(1.12)}
+.k-tiny-mark img{filter:brightness(.82) saturate(1.18) contrast(1.08)}
+/* More legible slide copy with gentle motion. */
+.k-frame-text{font-size:15px;font-weight:600;letter-spacing:1.2px;line-height:1.55;animation:taglineDrift 5s ease-in-out infinite}
+.k-stage.hero-stage{padding-top:46px}
+.k-circle-stamp{width:132px;height:132px;top:53px;padding:16px 9px;font-size:10px;font-weight:500;letter-spacing:1px;animation:stampSway 7s ease-in-out infinite;transform-origin:center}
+.k-circle-stamp b{font-size:23px;font-weight:500;line-height:1.18;letter-spacing:-.4px;margin-top:9px}
+.k-hero.changing .k-frame-text,.k-hero.changing .k-circle-stamp{opacity:0;transition:opacity .25s}.k-frame-text,.k-circle-stamp{transition:opacity .4s}
+@keyframes taglineDrift{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@keyframes stampSway{0%,100%{transform:rotate(8deg) translateY(0)}50%{transform:rotate(12deg) translateY(-6px)}}
+@media(max-width:1050px){.k-frame-text{font-size:13px;letter-spacing:.6px}.k-circle-stamp{width:112px;height:112px;font-size:9px;top:50px}.k-circle-stamp b{font-size:19px}}
+@media(max-width:600px){.k-frame-text{font-size:13px;line-height:1.5;letter-spacing:.2px;padding:0 1px}.k-stage.hero-stage{height:350px;padding-top:48px}.k-stage-circle{top:42px}.k-circle-stamp{width:98px;height:98px;top:55px;right:0;padding:12px 7px;font-size:8px;letter-spacing:.5px}.k-circle-stamp b{font-size:17px;line-height:1.2;margin-top:6px;letter-spacing:-.3px}.k-stage>img{width:76%;height:70%;max-height:calc(100% - 105px);translate:-8px 14px}.k-product-note{z-index:8}}
+@media(max-width:360px){.k-frame-text{font-size:12px}.k-stage.hero-stage{height:325px}.k-circle-stamp{width:88px;height:88px;font-size:7px}.k-circle-stamp b{font-size:15px}}
+@media(prefers-reduced-motion:reduce){.k-frame-text,.k-circle-stamp{animation:none!important;transition:none!important}}
+/* Lighter gold, closer to the original artwork. */
+.brand img,.footer-heading img{filter:brightness(.95) saturate(1.08) contrast(1.04)}
+.k-tiny-mark img{filter:brightness(.97) saturate(1.05) contrast(1.03)}
